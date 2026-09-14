@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Women Safety Route System</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* 🌸 NAVBAR */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 70px;
+            background: linear-gradient(90deg, #ff6ec4, #7873f5);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            color: white;
+            z-index: 1000;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        select, button {
+            padding: 8px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        button {
+            background: white;
+            color: #6a5acd;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* 🗺 MAP */
+        #map {
+            position: absolute;
+            top: 70px;
+            width: 100%;
+            height: calc(100vh - 70px);
+        }
+
+        /* 💜 ROUTE PANEL (FINAL BLENDED THEME) */
+        .route-box {
+            position: absolute;
+            top: 90px;
+            right: 20px;
+            width: 290px;
+
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(18px);
+
+            border-radius: 18px;
+
+            border: 1px solid rgba(255, 110, 196, 0.6);
+            box-shadow: 0 8px 30px rgba(120, 115, 245, 0.25);
+
+            padding: 18px;
+
+            z-index: 1000;
+
+            animation: slideInRight 0.5s ease;
+        }
+
+        @keyframes slideInRight {
+            from { transform: translateX(100px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+
+        .route-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            color: #6a5acd;
+            margin-bottom: 10px;
+        }
+
+        .route-box ul {
+            padding-left: 0;
+        }
+
+        .route-box li {
+            list-style: none;
+            padding: 8px 6px;
+            margin-bottom: 6px;
+
+            background: rgba(255, 110, 196, 0.08);
+            border-left: 3px solid #ff6ec4;
+
+            border-radius: 8px;
+
+            font-size: 13px;
+            transition: 0.3s;
+        }
+
+        .route-box li:hover {
+            transform: translateX(4px);
+            background: rgba(120, 115, 245, 0.12);
+        }
+
+        .route-box::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 20px;
+            right: 20px;
+            height: 3px;
+            background: linear-gradient(90deg, #ff6ec4, #7873f5);
+            border-radius: 10px;
+        }
+
+        /* 🚨 PANIC BUTTON */
+        .panic-btn {
+            position: absolute;
+            bottom: 25px;
+            left: 20px;
+            background: #ff1e1e;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 2000;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transition: 0.3s;
+        }
+
+        .panic-btn:hover {
+            transform: scale(1.08);
+            background: #e60000;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- 🌸 NAVBAR -->
+<div class="navbar">
+    <h2>🛡 Safe Route Finder</h2>
+
+    <form method="POST" class="controls">
+        <select name="source">
+            {% for loc in locations %}
+                <option value="{{ loc }}">{{ loc }}</option>
+            {% endfor %}
+        </select>
+
+        <select name="destination">
+            {% for loc in locations %}
+                <option value="{{ loc }}">{{ loc }}</option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Find Route</button>
+    </form>
+</div>
+
+<!-- MAP -->
+<div id="map"></div>
+
+<!--  PANIC BUTTON -->
+<button class="panic-btn" onclick="triggerSOS()">
+    🚨 PANIC
+</button>
+
+<!-- 💜 ROUTE PANEL -->
+{% if path %}
+<div class="route-box">
+    <div class="route-header">📍 Route Overview</div>
+    <ul>
+        {% for p in path %}
+            <li>➡ {{ p }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+    var map = L.map('map').setView([30.3165, 78.0322], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+    var route = {{ route_coords | tojson | safe }};
+
+    if (route && route.length > 0) {
+        drawRoute(route);
+    }
+
+    function drawRoute(route) {
+
+        var baseLine = L.polyline(route, {
+            color: '#6a5acd',
+            weight: 6,
+            opacity: 0.9
+        }).addTo(map);
+
+        var animatedLine = L.polyline(route, {
+            color: '#ff69b4',
+            weight: 4,
+            dashArray: '10, 10'
+        }).addTo(map);
+
+        map.fitBounds(baseLine.getBounds());
+
+        L.marker(route[0]).addTo(map).bindPopup("🟢 Start").openPopup();
+
+        L.marker(route[route.length - 1]).addTo(map).bindPopup("🔴 Destination");
+    }
+
+    /* 🚨 PANIC FUNCTION */
+    function triggerSOS() {
+        alert("🚨 SOS ACTIVATED!");
+
+        navigator.geolocation.getCurrentPosition(
+            function(position) {
+                let lat = position.coords.latitude;
+                let lng = position.coords.longitude;
+
+                alert("📍 Location Sent:\n" + lat + ", " + lng);
+
+                console.log("SOS LOCATION:", lat, lng);
+            },
+            function() {
+                alert("❌ Location access denied!");
+            }
+        );
+    }
+
+</script>
+
+</body>
+</html>

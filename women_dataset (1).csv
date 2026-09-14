@@ -1,0 +1,251 @@
+Location,Latitude,Longitude,Theft,Assault,Harassment,Stalking,Robbery,Kidnapping,Rape,Police_Presence,Crowd_Density
+Rispana Area 1,30.300441,78.081594,6,12,6,3,6,1,2,Medium,Medium
+Banjarawala Area 2,30.332596,78.044239,11,3,7,3,4,1,2,Low,Medium
+Shyampur Area 3,30.30685,77.979711,20,10,3,4,3,3,2,Medium,Low
+Rajpur Road Area 4,30.288607,78.045938,6,4,10,3,6,2,2,Low,High
+Nehru Colony Area 5,30.347866,78.052144,13,8,9,5,1,2,2,Medium,Low
+Kargi Chowk Area 6,30.306402,78.01904,10,3,12,0,0,2,2,Medium,Medium
+Race Course Area 7,30.31331,78.086697,12,4,3,0,0,2,1,Medium,High
+Jogiwala Area 8,30.354597,77.972511,9,2,5,5,4,2,0,High,Low
+Turner Road Area 9,30.319692,78.079752,16,8,4,4,4,1,0,Medium,High
+Rajpur Road Area 10,30.306746,77.994297,10,9,2,2,6,1,0,Medium,High
+ISBT Dehradun Area 11,30.310681,78.02532,8,6,10,0,6,1,3,Medium,Low
+Rispana Area 12,30.316408,77.995499,13,12,7,0,3,3,1,Medium,High
+Kargi Chowk Area 13,30.34804,78.025593,12,8,2,6,1,3,0,Low,Low
+Lachhiwala Area 14,30.364432,78.083028,18,7,4,6,1,2,0,Low,High
+Mussoorie Road Area 15,30.284855,78.083672,13,6,4,1,6,3,1,High,Medium
+Shyampur Area 16,30.26464,78.058177,17,10,10,6,1,2,0,Low,Low
+Majra Area 17,30.313552,78.060898,18,7,4,5,6,1,1,Low,High
+GMS Road Area 18,30.301629,78.055105,16,8,2,3,1,0,2,Low,Low
+Vasant Vihar Area 19,30.266686,78.006409,9,8,2,4,4,0,1,Medium,High
+Banjarawala Area 20,30.321584,78.001294,7,2,8,0,4,2,3,Low,High
+Nehru Colony Area 21,30.339184,78.084459,19,4,12,4,3,1,1,Medium,Low
+Patel Nagar Area 22,30.330152,78.055183,10,6,3,3,1,1,2,Low,Low
+ISBT Dehradun Area 23,30.371926,78.054317,6,7,7,1,2,2,2,Medium,Medium
+Nehru Colony Area 24,30.30559,78.082794,15,12,7,1,1,2,0,Medium,Low
+Kaulagarh Area 25,30.281879,78.034486,15,8,8,1,6,3,3,Medium,High
+Karanpur Area 26,30.319834,78.008713,16,11,9,5,6,3,1,Low,High
+Race Course Area 27,30.301167,77.979023,8,12,9,5,3,3,0,High,High
+Race Course Area 28,30.274416,78.044263,12,7,10,0,2,0,3,Low,High
+Subhash Nagar Area 29,30.337649,78.013097,8,9,12,0,4,0,1,Medium,High
+Clement Town Area 30,30.318072,78.056734,16,11,8,4,0,2,1,Medium,High
+Haridwar Road Area 31,30.343329,78.088018,18,9,12,0,2,3,2,Low,High
+Clement Town Area 32,30.302808,78.040905,12,6,9,3,4,2,2,Low,Low
+Patel Nagar Area 33,30.343923,77.974317,11,11,8,4,3,0,3,Low,High
+Jogiwala Area 34,30.258753,77.994294,14,12,9,0,3,2,3,Medium,High
+Banjarawala Area 35,30.342169,78.053924,13,12,8,5,0,1,1,High,Low
+Karanpur Area 36,30.30445,78.085676,8,2,4,3,4,0,2,Low,Medium
+Race Course Area 37,30.376165,78.025321,19,11,4,2,6,0,0,High,High
+Race Course Area 38,30.336468,77.978478,14,10,9,2,2,1,1,High,High
+Karanpur Area 39,30.359837,78.005528,17,3,5,6,5,3,3,Medium,High
+Shyampur Area 40,30.258099,78.066897,13,8,9,5,3,2,2,High,Low
+Subhash Nagar Area 41,30.371975,78.060458,11,2,7,6,5,3,0,Medium,Medium
+Prem Nagar Area 42,30.292556,77.988175,11,5,4,6,4,0,0,Medium,High
+Haridwar Road Area 43,30.350205,78.011711,18,4,10,4,1,1,0,High,High
+Karanpur Area 44,30.335421,78.022678,7,4,11,3,5,3,1,Medium,Medium
+Kargi Chowk Area 45,30.269443,78.067519,16,10,10,4,4,0,0,Low,Medium
+Haridwar Road Area 46,30.326655,78.044537,16,8,4,2,2,1,3,Low,Low
+Subhash Nagar Area 47,30.30045,78.012774,10,6,3,5,4,0,3,High,Medium
+Shyampur Area 48,30.319819,78.064953,14,11,10,3,5,0,0,Medium,Medium
+Vasant Vihar Area 49,30.26821,78.044567,19,4,4,0,4,1,3,Medium,Low
+Clement Town Area 50,30.368156,78.013791,19,6,9,1,4,3,1,Low,High
+Chakrata Road Area 51,30.372885,78.013845,16,2,8,1,1,2,1,Medium,High
+Sahastradhara Area 52,30.364272,78.004791,18,11,10,1,0,0,0,Low,High
+Patel Nagar Area 53,30.28054,78.039932,9,3,4,3,0,1,0,Medium,Medium
+GMS Road Area 54,30.295576,78.002624,8,7,3,5,3,3,2,Low,High
+Mussoorie Road Area 55,30.258597,77.978358,7,11,3,3,1,2,0,Medium,High
+Lachhiwala Area 56,30.337128,78.073703,14,2,4,3,5,0,0,Medium,Medium
+Lachhiwala Area 57,30.330475,77.972584,18,4,2,3,5,2,3,Low,Medium
+Garhi Cantt Area 58,30.352413,77.999551,12,9,5,2,0,1,1,Low,Medium
+Turner Road Area 59,30.356796,78.043679,6,8,6,5,4,2,3,Low,Low
+Garhi Cantt Area 60,30.295136,78.032014,17,6,3,2,2,2,3,High,Low
+Turner Road Area 61,30.321263,78.060795,17,10,8,6,3,1,1,High,Low
+Karanpur Area 62,30.318081,78.072552,6,9,4,3,1,1,3,Medium,Medium
+ISBT Dehradun Area 63,30.259239,78.050275,8,7,6,1,0,0,1,Medium,Low
+Jogiwala Area 64,30.330365,78.063176,11,5,5,3,0,3,1,High,High
+Nehru Colony Area 65,30.310618,78.037565,17,7,11,6,2,0,0,Medium,Low
+Ballupur Area 66,30.274363,77.987714,20,4,11,2,4,1,2,High,Low
+Doiwala Area 67,30.358842,78.043669,10,11,10,5,2,2,0,Medium,Low
+Jogiwala Area 68,30.345544,78.04832,19,3,12,5,5,2,1,Medium,Low
+ISBT Dehradun Area 69,30.361303,78.013575,7,5,11,5,4,3,2,High,High
+Subhash Nagar Area 70,30.26423,78.076627,17,12,9,2,1,2,3,Medium,Low
+Kargi Chowk Area 71,30.279612,78.063358,12,9,5,4,5,3,1,Low,High
+Rajpur Road Area 72,30.298603,77.992589,13,8,8,1,5,3,3,Low,Low
+Sahastradhara Area 73,30.365707,77.998044,12,2,11,0,4,0,2,Low,High
+Jakhan Area 74,30.373156,78.05884,19,8,11,1,0,0,3,Low,High
+Doiwala Area 75,30.281945,78.062027,12,6,7,4,4,1,3,Low,High
+Rispana Area 76,30.265355,77.997442,13,10,5,4,3,3,3,Low,Low
+Rajpur Road Area 77,30.366642,77.998602,10,4,9,4,3,0,0,Low,High
+Chakrata Road Area 78,30.314977,77.986222,17,3,2,3,1,2,0,Low,High
+Nehru Colony Area 79,30.358131,77.995181,15,3,6,2,5,1,2,High,Medium
+Garhi Cantt Area 80,30.367524,77.97756,18,11,10,2,4,1,3,Medium,Medium
+Chakrata Road Area 81,30.322795,78.005996,11,2,8,6,2,1,0,High,High
+Banjarawala Area 82,30.368238,77.987907,8,2,2,5,3,1,3,Low,Medium
+Karanpur Area 83,30.2873,78.060311,17,6,11,3,0,1,1,Low,High
+GMS Road Area 84,30.35622,78.0646,10,2,4,6,5,1,1,Medium,Medium
+Garhi Cantt Area 85,30.328212,78.03476,18,6,4,4,6,2,0,Medium,High
+Mussoorie Road Area 86,30.272928,78.071359,12,7,2,6,6,1,0,Medium,High
+Ballupur Area 87,30.360912,78.061802,11,8,4,5,1,1,0,Medium,Medium
+Kaulagarh Area 88,30.375976,78.078328,7,5,5,5,4,1,0,Low,High
+Turner Road Area 89,30.256899,78.092197,7,7,3,0,1,3,0,Medium,Medium
+Turner Road Area 90,30.306763,78.091723,9,2,7,2,6,3,2,High,Medium
+Chakrata Road Area 91,30.367148,78.078695,5,3,7,2,0,2,3,Medium,Low
+Shyampur Area 92,30.26729,78.022169,6,9,12,2,5,3,0,Medium,Low
+Subhash Nagar Area 93,30.374149,78.064393,12,10,12,0,0,0,2,Medium,Low
+Karanpur Area 94,30.319781,78.050755,11,6,5,2,0,1,2,Medium,Medium
+Haridwar Road Area 95,30.296643,78.00785,9,6,2,4,2,2,1,Medium,Medium
+Haridwar Road Area 96,30.29005,78.018992,17,6,4,0,6,2,0,Medium,Low
+Subhash Nagar Area 97,30.305105,77.985423,10,12,2,2,3,1,1,Medium,Medium
+Kaulagarh Area 98,30.373861,78.029266,20,7,4,3,6,3,3,Low,Low
+Doiwala Area 99,30.366927,77.997065,11,9,6,0,6,3,1,Medium,High
+GMS Road Area 100,30.25692,78.07955,17,8,3,1,4,0,1,High,High
+Lachhiwala Area 101,30.308291,78.061503,16,11,7,0,3,1,3,High,High
+Sahastradhara Area 102,30.376071,78.001708,7,10,5,2,3,0,3,Medium,High
+Shyampur Area 103,30.342004,78.075898,17,7,3,6,5,1,3,Low,High
+Ballupur Area 104,30.273283,78.050933,14,2,12,1,6,3,0,Medium,Low
+Kaulagarh Area 105,30.338236,78.07934,14,6,9,1,5,1,2,Medium,High
+Sahastradhara Area 106,30.271952,78.024787,11,2,4,6,3,2,0,Medium,Low
+Dalanwala Area 107,30.261649,77.993303,15,6,5,2,2,1,3,High,Low
+Clement Town Area 108,30.316522,77.994398,10,9,8,6,5,3,2,Low,Low
+Turner Road Area 109,30.319965,78.075672,7,3,3,5,1,1,3,Low,Medium
+Sahastradhara Area 110,30.335382,78.061369,7,3,2,4,5,3,0,High,Low
+Vasant Vihar Area 111,30.374602,78.019186,12,8,10,3,3,2,0,Low,Medium
+ISBT Dehradun Area 112,30.269294,78.028458,14,5,5,3,6,3,0,Low,Medium
+Dalanwala Area 113,30.263788,78.058157,15,3,6,4,2,1,1,High,Low
+Clement Town Area 114,30.322069,77.986178,19,11,10,6,5,2,1,Medium,Low
+Jakhan Area 115,30.369582,78.046727,14,10,11,1,4,0,0,Low,High
+Jakhan Area 116,30.324287,78.029392,12,3,2,5,1,2,3,Low,High
+Karanpur Area 117,30.351979,77.984015,19,9,2,0,2,2,1,Low,Low
+Prem Nagar Area 118,30.315416,78.008398,12,9,9,4,1,3,0,Medium,Low
+Garhi Cantt Area 119,30.261213,77.999779,5,7,12,6,4,3,2,Low,High
+Banjarawala Area 120,30.314508,78.012132,8,7,11,0,1,1,1,High,Medium
+Shyampur Area 121,30.305873,78.076636,16,10,3,6,0,0,0,Medium,High
+Ballupur Area 122,30.28098,77.987076,5,5,5,6,5,1,1,Medium,Medium
+ISBT Dehradun Area 123,30.324565,78.027591,10,11,5,5,1,1,2,Medium,High
+Majra Area 124,30.329316,78.081454,12,2,11,5,1,3,0,Low,Low
+Jakhan Area 125,30.302993,78.083172,13,3,12,3,6,3,1,Low,Low
+Rajpur Road Area 126,30.342205,78.044262,8,4,3,1,1,1,2,Medium,Medium
+Ballupur Area 127,30.374153,78.027185,17,9,9,2,0,0,1,Low,Medium
+Vasant Vihar Area 128,30.306786,78.049109,6,6,12,5,1,2,1,Low,High
+Haridwar Road Area 129,30.270358,77.988728,14,3,8,2,5,3,2,Medium,High
+Race Course Area 130,30.314727,78.005411,13,5,7,5,4,3,3,Low,Medium
+Kaulagarh Area 131,30.343666,78.0582,17,3,11,4,2,3,0,Low,High
+Clement Town Area 132,30.257501,78.00072,18,2,7,4,1,3,0,Medium,Low
+Ballupur Area 133,30.324409,77.97948,9,2,7,3,6,3,2,Medium,High
+ISBT Dehradun Area 134,30.288041,78.056882,10,8,3,6,2,0,3,High,Medium
+Haridwar Road Area 135,30.289264,78.07709,5,5,3,3,1,3,0,High,High
+Lachhiwala Area 136,30.340392,78.013849,11,9,6,1,6,0,2,Low,High
+Vasant Vihar Area 137,30.266889,78.068225,15,5,7,6,0,0,1,Medium,Low
+ISBT Dehradun Area 138,30.289184,78.042392,9,10,6,1,1,1,1,Medium,Low
+Lachhiwala Area 139,30.274886,78.014331,18,3,3,5,4,1,1,Medium,High
+Haridwar Road Area 140,30.274993,78.036072,17,5,7,6,0,3,3,Medium,High
+Raipur Area 141,30.365744,78.042066,14,12,5,3,5,2,2,Low,Medium
+Mussoorie Road Area 142,30.370645,78.011493,19,10,4,2,5,0,0,High,Medium
+Prem Nagar Area 143,30.282896,78.068217,5,6,11,4,0,0,3,Medium,High
+Prem Nagar Area 144,30.30217,78.009237,19,7,8,2,1,3,3,High,Low
+Garhi Cantt Area 145,30.293128,78.0851,8,9,2,0,0,1,0,Low,High
+Haridwar Road Area 146,30.323816,78.054989,12,11,8,6,2,2,0,Medium,Medium
+Ballupur Area 147,30.279441,78.031142,20,11,2,5,5,3,2,Low,Medium
+Doiwala Area 148,30.357673,77.9904,20,11,5,0,0,0,3,High,High
+Nehru Colony Area 149,30.359301,77.989731,14,12,11,6,2,0,0,High,Low
+Rajpur Road Area 150,30.280638,78.001276,10,11,10,1,0,1,3,High,High
+Jakhan Area 151,30.347989,78.040809,15,2,7,0,2,0,3,Medium,High
+Karanpur Area 152,30.356544,78.04,17,6,4,0,3,3,2,High,High
+Turner Road Area 153,30.275078,78.016376,19,10,3,3,4,0,2,High,Medium
+Kaulagarh Area 154,30.336379,78.074608,14,9,11,0,1,2,2,Low,Medium
+Race Course Area 155,30.306369,77.976595,7,9,12,4,3,2,2,Medium,Medium
+Karanpur Area 156,30.33795,78.057699,17,8,4,3,2,0,2,Medium,Medium
+Subhash Nagar Area 157,30.363735,77.990341,12,8,3,2,0,1,0,Medium,Low
+Ballupur Area 158,30.26169,78.082862,17,7,10,4,1,1,0,High,High
+Race Course Area 159,30.355671,77.995005,12,3,4,4,6,0,3,Low,Low
+Rajpur Road Area 160,30.366319,77.972485,13,8,3,0,6,2,0,Low,High
+Ballupur Area 161,30.375197,78.040204,12,9,5,4,1,1,2,Low,High
+Majra Area 162,30.321578,78.020473,19,8,5,0,2,0,2,High,Medium
+Raipur Area 163,30.33378,78.051194,16,2,10,4,5,0,0,High,Medium
+Garhi Cantt Area 164,30.370515,78.000189,6,8,7,3,4,0,2,High,High
+Patel Nagar Area 165,30.340354,77.98724,19,2,12,2,3,2,3,Low,High
+Haridwar Road Area 166,30.336269,77.99911,10,8,4,2,1,3,0,High,Medium
+Prem Nagar Area 167,30.317037,78.038815,16,12,9,3,1,0,0,Low,Medium
+GMS Road Area 168,30.31609,78.01566,16,8,2,3,4,2,2,Low,High
+Ballupur Area 169,30.267164,78.026279,6,4,2,6,1,3,0,Medium,Low
+Kaulagarh Area 170,30.267621,78.056981,17,10,4,5,1,0,1,High,Low
+Lachhiwala Area 171,30.350142,78.085811,9,7,10,5,6,0,2,Medium,High
+Sahastradhara Area 172,30.325313,78.022723,7,2,4,6,3,3,3,Low,High
+Vasant Vihar Area 173,30.306266,77.988946,13,9,8,0,3,1,1,High,Medium
+Prem Nagar Area 174,30.303527,78.003304,7,8,2,2,2,3,1,Low,Medium
+Subhash Nagar Area 175,30.328802,78.040013,5,8,12,6,1,1,1,Low,Low
+Subhash Nagar Area 176,30.340972,78.018221,12,10,9,2,6,0,0,Low,Low
+Lachhiwala Area 177,30.265148,77.995416,8,7,8,5,6,0,2,Medium,Low
+Vasant Vihar Area 178,30.300291,77.982194,9,4,4,6,4,0,2,Medium,High
+Ballupur Area 179,30.292987,77.996251,19,6,6,0,0,3,1,Low,Low
+Patel Nagar Area 180,30.265429,78.017712,6,5,3,1,6,1,3,High,Low
+Jogiwala Area 181,30.310203,78.049046,9,2,3,1,4,0,3,High,Medium
+Clement Town Area 182,30.277815,78.035371,19,4,4,1,0,3,2,Low,Medium
+Kargi Chowk Area 183,30.35975,77.976946,18,6,8,6,4,0,2,High,Medium
+Sahastradhara Area 184,30.372726,78.087593,5,10,4,5,5,1,3,Medium,Low
+Sahastradhara Area 185,30.357709,77.976318,11,6,9,0,2,3,2,High,High
+Mussoorie Road Area 186,30.332329,77.974351,19,11,10,3,6,0,2,Medium,High
+Kargi Chowk Area 187,30.276187,78.030244,9,4,2,3,3,3,2,High,Medium
+Sahastradhara Area 188,30.359391,77.999119,9,11,7,1,5,0,0,High,Low
+Doiwala Area 189,30.333063,77.988846,17,3,8,2,5,2,2,Low,Medium
+Chakrata Road Area 190,30.343921,78.019512,11,4,9,3,5,2,2,Low,Low
+Majra Area 191,30.36132,78.090066,17,8,3,0,5,1,2,Low,Low
+Banjarawala Area 192,30.285137,78.023242,13,11,8,6,3,0,2,Low,Low
+Prem Nagar Area 193,30.26892,78.019089,7,11,12,2,3,0,0,Medium,Low
+Ballupur Area 194,30.271973,78.078685,14,8,6,0,0,2,3,High,High
+Mussoorie Road Area 195,30.264246,78.058997,15,8,7,1,4,0,3,High,High
+Kargi Chowk Area 196,30.293473,78.069011,9,7,2,1,6,2,0,Medium,Low
+Garhi Cantt Area 197,30.372353,78.003077,19,5,5,4,3,2,0,Medium,High
+Jogiwala Area 198,30.288067,78.025558,17,5,10,2,2,1,2,Low,High
+Kaulagarh Area 199,30.309357,78.066458,15,2,10,1,2,0,2,Low,Medium
+Turner Road Area 200,30.318448,78.009004,15,7,4,1,4,3,0,High,Medium
+Turner Road Area 201,30.348293,78.057811,14,3,12,1,5,2,1,Low,High
+Doiwala Area 202,30.288687,77.999822,19,9,4,5,4,3,3,Medium,Medium
+Sahastradhara Area 203,30.336648,78.010666,15,2,2,0,6,3,2,High,Low
+Nehru Colony Area 204,30.26562,77.972485,7,12,4,0,4,2,2,High,Medium
+Ballupur Area 205,30.317351,78.072159,10,8,10,5,0,1,0,Medium,Low
+Jogiwala Area 206,30.35832,77.989127,5,6,7,3,6,0,3,Low,High
+Kargi Chowk Area 207,30.309384,78.005203,8,7,3,2,4,3,0,Low,Medium
+Nehru Colony Area 208,30.345978,78.048546,16,3,11,6,5,0,2,High,High
+Nehru Colony Area 209,30.359008,78.04334,13,2,3,2,6,0,2,Low,High
+Raipur Area 210,30.296839,77.984445,11,7,11,5,0,2,3,Low,Low
+Dalanwala Area 211,30.331055,78.014505,19,10,4,2,3,2,3,Low,Medium
+Rajpur Road Area 212,30.351901,78.000127,5,3,12,4,5,3,3,Medium,High
+Subhash Nagar Area 213,30.282516,78.008092,15,2,5,0,3,0,1,High,Low
+Lachhiwala Area 214,30.320185,78.078851,9,9,3,0,4,1,2,Medium,Medium
+Prem Nagar Area 215,30.26984,78.065915,15,9,8,4,2,2,2,Low,Medium
+Chakrata Road Area 216,30.274632,78.069756,5,9,10,5,1,1,2,Medium,High
+Raipur Area 217,30.276936,78.039983,13,11,8,5,5,2,3,Low,Medium
+Patel Nagar Area 218,30.315652,78.062339,9,3,3,3,1,1,0,Medium,Low
+Lachhiwala Area 219,30.365298,78.049132,20,11,10,2,6,1,0,Low,Medium
+Haridwar Road Area 220,30.298118,78.063604,11,10,11,1,5,3,3,High,High
+Ballupur Area 221,30.310452,78.009405,7,12,10,1,4,2,2,Low,High
+Nehru Colony Area 222,30.305041,78.004202,10,12,4,1,6,2,0,Medium,Low
+Clement Town Area 223,30.307323,78.042906,16,6,3,1,2,3,1,High,High
+ISBT Dehradun Area 224,30.357539,77.99429,6,5,9,6,4,2,0,Medium,High
+Kaulagarh Area 225,30.293323,78.06617,20,4,12,2,1,2,3,Medium,High
+Shyampur Area 226,30.3412,78.050837,13,12,8,2,1,0,0,High,Medium
+Garhi Cantt Area 227,30.353264,78.03239,20,9,10,1,4,3,1,Low,Low
+Subhash Nagar Area 228,30.296045,78.025812,9,7,4,2,6,0,1,High,High
+Turner Road Area 229,30.293774,78.091948,13,11,6,5,5,3,0,Low,Medium
+Prem Nagar Area 230,30.335857,78.083209,10,10,3,6,3,0,2,Medium,High
+Karanpur Area 231,30.338946,77.978078,9,7,3,3,5,0,1,Medium,Low
+Rispana Area 232,30.318697,78.059696,6,8,12,6,0,0,1,Low,Low
+Lachhiwala Area 233,30.270637,77.98108,16,6,6,0,5,1,2,High,High
+ISBT Dehradun Area 234,30.291267,78.073073,11,2,4,4,2,1,1,High,Low
+Shyampur Area 235,30.281083,78.088678,9,2,3,2,5,2,0,Low,High
+GMS Road Area 236,30.340581,78.089535,17,6,6,3,2,1,0,Low,Low
+Kaulagarh Area 237,30.259609,77.987095,18,10,8,3,4,3,3,Low,Low
+Doiwala Area 238,30.33022,78.010188,10,7,9,3,3,1,1,Low,High
+Garhi Cantt Area 239,30.276514,78.090057,18,8,12,3,6,2,2,Low,Low
+ISBT Dehradun Area 240,30.276864,78.067461,8,4,12,4,6,2,3,Medium,High
+Doiwala Area 241,30.330664,78.088478,18,9,8,6,0,1,2,Medium,Medium
+Vasant Vihar Area 242,30.300694,78.016253,12,5,11,1,0,1,0,Medium,Low
+Ballupur Area 243,30.324134,78.010898,18,7,6,5,5,1,3,Medium,Low
+Race Course Area 244,30.344835,77.976537,8,7,2,2,4,2,1,High,Low
+Lachhiwala Area 245,30.342614,78.036054,15,3,2,1,0,3,0,Medium,Low
+Dalanwala Area 246,30.277803,78.064925,9,8,4,4,4,0,0,Low,High
+Dalanwala Area 247,30.267268,78.015023,8,5,6,2,0,2,3,Low,Low
+Jogiwala Area 248,30.317549,78.050912,17,2,12,6,4,2,1,High,Medium
+Dalanwala Area 249,30.270112,77.991193,6,4,10,1,6,1,2,Low,Medium
+GMS Road Area 250,30.271156,77.991499,5,4,4,2,5,2,0,Medium,Low
